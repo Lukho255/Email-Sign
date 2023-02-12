@@ -95,6 +95,10 @@ em {
   color: #808080;
 }
 
+#b>p {
+  text-align: justify;
+}
+
 @media (max-width: 550px) {
   #name {
     font-size: 14px;
@@ -111,6 +115,9 @@ em {
     line-height: 12px;
   }
 
+  #b>p {
+    text-align: justify;
+  }
   img {
     border: 0;
     width: 100%;
