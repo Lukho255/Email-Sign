@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+<style>
+  table {
+  border-collapse: collapse;
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+  width: 100%;
+  max-width: 700px;
+  color: #00b14f;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+td {
+  padding: 0 0 4px;
+  border-bottom: 1px solid #00b14f;
+  width: 100%;
+  /* display: block; */
+}
+
+td:first-child {
+  padding: 15px 0 15px 0px;
+  width: 23.5%;
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+  padding-bottom: 2px;
+  padding-top: 0;
+}
+
+img {
+  border: 0;
+  width: 100%;
+  max-width: 100px;
+  /* height: auto;
+  display: block; */
+  margin: 0 20%;
+}
+
+img#d {
+  border: 0;
+  max-width: 200px;
+  display: block;
+  margin: 0;
+}
+
+.banner {
+  background: linear-gradient(45deg, rgba(0, 128, 0, 0), #00b15015, #eaece9);
+  padding-bottom: 0;
+}
+
+span {
+  font-size: 9pt;
+  color: #898d8a;
+}
+
+span#a {
+  font-weight: bold;
+  color: #00b14f;
+}
+
+#b {
+  width: inherit;
+  font-weight: lighter;
+  color: #00b14f;
+  /* text-align: justify; */
+  padding: 5px 0.5em 5px 0.5em;
+  border-bottom: 0;
+}
+
+#c {
+  width: 35%;
+}
+
+em {
+  font-size: xx-small;;
+}
+
+#name {
+  font-size: 18pt;
+  font-weight: bold;
+  line-height: 18pt;
+  color: #22b14f;
+}
+
+#title {
+  font-size: 11pt;
+  font-weight: bold;
+  line-height: 13pt;
+  color: #808080;
+}
+
+#b>p {
+  text-align: justify;
+}
+
+@media (max-width: 550px) {
+  #name {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #title {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  p {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  
+  #b>p {
+    text-align: justify;
+  }
+  
+  img {
+    border: 0;
+    width: 100%;
+    max-width: 100px;
+    margin: 0;
+  }
+
+  em {
+    font-size: xx-small;
+  }
+}
+</style>
+</head>
+<body>
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3--piid=" id="name">Thabo James</td>
+      </tr>
+      <tr>
+        <td>
+          <p>
+            <a href="https://www.sapot.co.za/" target="_blank"><img src="https://i.pinimg.com/564x/24/03/e0/2403e0a2a1654a3960c3bcc063142700.jpg" alt="Logo"></a>
+          </p>
+        </td>
+        <td id="c">
+          <p id="title">Executive Officer | Civil Tech</p>
+          <br>
+          <p>
+            <span id="a">T:</span> <span>+27 71 951 9259</span>
+          </p>
+          <p>
+            <span id="a">E:</span> <a href="mailto:tjames@sapot.co.za"><span>tjames@sapot.co.za</span></a>
+          </p>
+          <p>
+            <span id="a">W:</span> <a href="https://www.sapot.co.za" target="_blank"><span>www.sapot.co.za</span></a>
+          </p>
+        </td>
+        <td>
+          <p class="banner">
+            <img id="d" src="https://i.pinimg.com/originals/91/c1/7b/91c17be323dae570d850737980199018.png"
+              alt="RAM Banner">
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td id="b" colspan="3">
+          <p>
+            <span>
+              <em>
+                This email and any attachments are intended for the exclusive use of the person or entity to whom they
+                are addressed. If you are not the intended recipient, please notify us immediately and destroy all
+                copies. The information contained in this email is confidential and may also be privileged. Unauthorized
+                use, copying, distribution, or any other disclosure of this information is strictly prohibited.
+                Please be advised that this email is being sent from SAPOT Training Program and any views or opinions
+                expressed in this email are solely those of the sender and do not necessarily represent those of SAPOT
+                Training Program.
+              </em>
+            </span>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
